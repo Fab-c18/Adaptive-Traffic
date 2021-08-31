@@ -6,7 +6,7 @@ cap=cv2.VideoCapture(r"C:\Users\AQEEL\Desktop\Aqeel\sem-5\MP\sample videos\luci.
 i=0
 while(cap.isOpened()):
         
-        print("I'm working..aaa.")
+        print("I'm working..aaa..")
         flag,frame=cap.read()
         if flag==False:
             break            
